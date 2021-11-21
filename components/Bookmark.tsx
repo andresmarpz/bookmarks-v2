@@ -70,7 +70,7 @@ const Bookmark = ({ collection, bookmark }: Props) => {
                 }}
                 href={bookmark.href}
                 target="_blank"
-                rel="noopener"
+                rel="noreferrer"
             />
         </StyledBookmark>
     );
